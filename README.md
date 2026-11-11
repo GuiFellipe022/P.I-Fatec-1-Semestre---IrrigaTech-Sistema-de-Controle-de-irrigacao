@@ -48,8 +48,8 @@ Confira algumas telas desenvolvidas para o IrrigaTech:
 IrrigaTech/
 │
 ├── imagens/
-│   ├── pagina-inicial.png
-│   └── relatorios.png
+│   ├── Pagina-inicial.png
+│   └── Relatorios.png
 │
 ├── Dashboard - HTML/
 │   ├── pagina-inicial.html
