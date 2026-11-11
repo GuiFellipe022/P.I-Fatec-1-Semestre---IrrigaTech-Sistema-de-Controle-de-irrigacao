@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', arial, sans-serif;
+}
+
+body {
+    background-color: #F3F6FA;
+}
+
+.fonte-roboto {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+/* COR DO MENU LATERAL - ALINHAMENTO E TAMANHO DOS ITENS*/
+.menu-lateral {
+    width: 290px;
+    height: 100vh;
+    background-color: #071D49;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 0 10px rgba(21, 13, 90, 0.2);
+}
+
+/* TITULO DO SISTEMA - ALINHAMENTO*/
+.titulo-software {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* APARÊNCIA DO TITULO DO SISTEMA - COR E TAMANHO DA FONTE */
+.titulo-software h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* ORGANIZAÇÃO DO MENU LATERAL - ALINHAMENTO */
+.itens-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* REMOVE A FORMATAÇÃO DAS LISTAS NO MENU LATERAL*/
+.itens-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* FAZ CADA ITEM OCUPAR A LARGURA DE 100% DO MENU LATERAL*/
+.itens-menu li {
+    width: 100%;
+}
+ 
+
+.itens-menu a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+
+.itens-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding-left: 32px;
+}
+
+
+.menu-secundario {
+    margin-top: auto !important;
+    padding-bottom: 20px !important;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.barra-superior {
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+    padding: 0 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border:1px solid rgba(129, 128, 128, 0.15);
+}
+
+
+.informacoes-superior {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.data {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.horario {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.descricao {
+    font-size: 22px;
+    font-weight: 2000;
+    margin-left: 10px;
+}
+
+.tipo-de-pagina {
+    font-size: 14px;
+    flex-direction: column;
+    color:#031458;
+    margin-left: 10px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.cards,
+.cards2,
+.cards3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    height: 250px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(129, 128, 128, 0.15);
+    font-size: 14px;
+}
+
+.cards h2,
+.cards2 h2,
+.cards3 h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #031458;
+  
+}
+
+.bar-chart {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    align-items: end;
+    justify-items: center;
+
+    width: 100%;
+    height: 350px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    padding: 25px 40px;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(129, 128, 128, 0.15);
+
+    column-gap: 30px;
+}
+
+.bar-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+
+.bar-column strong {
+    font-size: 13px;
+    font-weight: 600;
+    color: #0755a5;
+    white-space: nowrap;
+}
+
+.bar {
+    width: 50px;
+    min-height: 5px;
+
+    background: linear-gradient(
+        180deg,
+        #38bdf8,
+        #0284c7
+    );
+
+    border-radius: 8px 8px 3px 3px;
+    transition: 0.3s;
+}
+
+.bar:hover {
+    opacity: 0.8;
+}
+
+.bar-column span {
+    font-size: 12px;
+    color: #64748b;
+    white-space: nowrap;
+}
+
+.grafico-texto {
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.dica {
+    background-color: rgba(55, 105, 190, 0.65);
+    border-radius: 10px;
+    height: 70px;
+    padding: 15px;
+    color:#254b96;
+    opacity: 1;
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+.dica p1 {
+   margin-left: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsividade */
+@media (max-width: 1100px) {
+    .areas-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 24px;
+        row-gap: 28px;
+    }
+
+    .area-card {
+        height: 278px;
+    }
+
+    .card-header h2 {
+        font-size: 14px;
+    }
+
+    .info-row {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 48%;
+    }
+}
+
+@media (max-width: 650px) {
+    .areas-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .area-card {
+        max-width: 397px;
+        margin-inline: auto;
+    }
+}

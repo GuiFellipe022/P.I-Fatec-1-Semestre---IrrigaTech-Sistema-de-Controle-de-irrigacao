@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', arial, sans-serif;
+}
+
+body {
+    background-color: #F3F6FA;
+}
+
+.fonte-roboto {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+/* COR DO MENU LATERAL - ALINHAMENTO E TAMANHO DOS ITENS*/
+.menu-lateral {
+    width: 290px;
+    height: 100vh;
+    background-color: #071D49;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 0 10px rgba(21, 13, 90, 0.2);
+}
+
+/* TITULO DO SISTEMA - ALINHAMENTO*/
+.titulo-software {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* APARÊNCIA DO TITULO DO SISTEMA - COR E TAMANHO DA FONTE */
+.titulo-software h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* ORGANIZAÇÃO DO MENU LATERAL - ALINHAMENTO */
+.itens-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* REMOVE A FORMATAÇÃO DAS LISTAS NO MENU LATERAL*/
+.itens-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* FAZ CADA ITEM OCUPAR A LARGURA DE 100% DO MENU LATERAL*/
+.itens-menu li {
+    width: 100%;
+}
+ 
+
+.itens-menu a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+
+.itens-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding-left: 32px;
+}
+
+
+.menu-secundario {
+    margin-top: auto !important;
+    padding-bottom: 20px !important;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.barra-superior {
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+    padding: 0 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border:1px solid rgba(129, 128, 128, 0.15);
+}
+
+
+.informacoes-superior {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.data {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.horario {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.descricao {
+    font-size: 22px;
+    font-weight: 2000;
+    margin-left: 10px;
+}
+
+.tipo-de-pagina {
+    font-size: 14px;
+    flex-direction: column;
+    color:#031458;
+    margin-left: 10px;
+}
+
+
+.conteudo-suporte {
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+.conteudo-suporte h1 {
+    color: black;
+    font-size: 28px;
+}
+
+.subtitulo {
+    color: #64748b;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.faq-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.10);
+}
+
+.faq-container h2 {
+    color: #071D49;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 18px 5px;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #334155;
+    font-size: 15px;
+}
+
+.faq-item p {
+    color: #64748b;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+.contato-suporte {
+    background-color: #ffffff;
+    margin-top: 25px;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.10);
+}
+
+.contato-suporte h2 {
+    color: #071D49;
+    margin-bottom: 10px;
+}
+
+.contato-suporte p {
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.btn-suporte {
+    display: inline-block;
+    background-color: #0284c7;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-suporte:hover {
+    background-color: #0755a5;
+}

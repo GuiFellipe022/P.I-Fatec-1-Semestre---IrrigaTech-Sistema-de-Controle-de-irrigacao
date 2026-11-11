@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', arial, sans-serif;
+}
+
+body {
+    background-color: #F3F6FA;
+}
+
+.fonte-roboto {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+/* COR DO MENU LATERAL - ALINHAMENTO E TAMANHO DOS ITENS*/
+.menu-lateral {
+    width: 290px;
+    height: 100vh;
+    background-color: #071D49;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 0 10px rgba(21, 13, 90, 0.2);
+}
+
+/* TITULO DO SISTEMA - ALINHAMENTO*/
+.titulo-software {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* APARÊNCIA DO TITULO DO SISTEMA - COR E TAMANHO DA FONTE */
+.titulo-software h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* ORGANIZAÇÃO DO MENU LATERAL - ALINHAMENTO */
+.itens-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* REMOVE A FORMATAÇÃO DAS LISTAS NO MENU LATERAL*/
+.itens-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* FAZ CADA ITEM OCUPAR A LARGURA DE 100% DO MENU LATERAL*/
+.itens-menu li {
+    width: 100%;
+}
+ 
+/*  OPÇÕES DO MENU LATERAL */
+.itens-menu a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+/* EFEITO AO PASSAR O MOUSE NO MENU LATERAL*/
+.itens-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding-left: 32px;
+}
+
+/* FEEDBACK E SUPORTE - MENU LATERAL*/
+.menu-secundario {
+    margin-top: auto !important;
+    padding-bottom: 20px !important;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.barra-superior {
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+    padding: 0 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border:1px solid rgba(129, 128, 128, 0.15);
+}
+
+/* Área da direita */
+.informacoes-superior {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* DATA */
+.data {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* HORÁRIO*/
+.horario {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.descricao {
+    font-size: 22px;
+    font-weight: 2000;
+    margin-left: 10px;
+}
+
+.tipo-de-pagina {
+    font-size: 14px;
+    flex-direction: column;
+    color:#031458;
+    margin-left: 10px;
+}
+
+.content-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 20px;
+    border-radius: 40px;
+    height: 450px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border:1px solid rgba(129, 128, 128, 0.15);
+}
+
+.btn-nova-area {
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #579f35;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 175vh;
+    margin-top: 20px;
+}
+
+.panel-heading  h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.data-table th {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 5px solid gray;
+    margin-left: 20px;
+    border-radius: 5px;
+}  
+
+.data-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    margin-left: 20px;
+}
+
+.data-table tr {
+    color: black;
+}
+
+.pill-green {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.pill-red {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.pill-green:hover {
+    background-color: #148119;
+}
+
+.pill-red:hover {
+    background-color: #b30000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsividade */
+@media (max-width: 1100px) {
+    .areas-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 24px;
+        row-gap: 28px;
+    }
+
+    .area-card {
+        height: 278px;
+    }
+
+    .card-header h2 {
+        font-size: 14px;
+    }
+
+    .info-row {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 48%;
+    }
+}
+
+@media (max-width: 650px) {
+    .areas-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .area-card {
+        max-width: 397px;
+        margin-inline: auto;
+    }
+}
+
