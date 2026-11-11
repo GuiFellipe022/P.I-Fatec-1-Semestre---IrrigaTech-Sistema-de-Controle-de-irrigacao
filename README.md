@@ -4,7 +4,7 @@ O **IrrigaTech** é um projeto acadêmico desenvolvido por nós, alunos da Fatec
 
 ## 🎯 Objetivo do Projeto
 
-Desenvolver uma interface que apresente soluções tecnológicas voltadas ao gerenciamento da irrigação agrícola, incentivando o uso consciente da água e contribuindo para uma agricultura mais sustentável.
+Desenvolver uma interface que apresente soluções tecnológicas voltadas ao gerenciamento da irrigação agrícola, incentivando o uso consciente da água e contribuindo para uma agricultura que seja mais sustentável.
 
 O projeto foi pensado com foco na sustentabilidade e na conscientização sobre os problemas ambientais causados pelo consumo excessivo de água no planeta.
 
@@ -27,20 +27,20 @@ Confira algumas telas desenvolvidas para o IrrigaTech:
 ### 🏠 Página Inicial
 
 <p align="center">
-  <img src="imagens/pagina-inicial.png" alt="Página Inicial do IrrigaTech" width="850">
+  <img src="imagens/Pagina-inicial.png" alt="Página Inicial do IrrigaTech" width="850">
 </p>
 
 ### 📊 Relatórios
 
 <p align="center">
-  <img src="imagens/relatorios.png" alt="Página de Relatórios do IrrigaTech" width="850">
+  <img src="imagens/Relatorios.png" alt="Página de Relatórios do IrrigaTech" width="850">
 </p>
 
 ## 🖥️ Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (No momento apenas criamos os arquivos JavaScript que serão atualizados no futuro do projeto)
 
 ## 📂 Estrutura do Projeto
 
@@ -83,10 +83,11 @@ O projeto está relacionado ao **ODS 6 – Água Potável e Saneamento**, da Org
 
 ## 🎓 Desenvolvimento Acadêmico
 
-Projeto desenvolvido por alunos da **Faculdade de Tecnologia de Franca (Fatec)**, como parte das atividades acadêmicas do curso de Desenvolvimento de Software Multiplataforma.
+Projeto desenvolvido por alunos da **Faculdade de Tecnologia de Franca (Fatec) - Curso de Desenvolvimento de Software Multiplataforma**
+
+[Disciplina chave] Engenharia de Software I
+[Disciplina Satélite] Desenvolvimento Web I
+[Disciplina Satélite] Design Digital
 
 ---
 
-<p align="center">
-  🌱 <strong>IrrigaTech — Tecnologia a favor da sustentabilidade.</strong>
-</p>
