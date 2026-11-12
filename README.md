@@ -42,6 +42,12 @@ Confira algumas telas desenvolvidas para o IrrigaTech:
 - CSS3
 - JavaScript (No momento apenas criamos os arquivos JavaScript que serão atualizados no futuro do projeto)
 
+## 📚 Documentação do Projeto
+
+Acesse a documentação completa do IrrigaTech:
+
+[ 📄 Visualizar documentação em PDF ](documentacao/Documentacao-IrrigaTech.pdf)
+
 ## 📂 Estrutura do Projeto
 
 ```text
