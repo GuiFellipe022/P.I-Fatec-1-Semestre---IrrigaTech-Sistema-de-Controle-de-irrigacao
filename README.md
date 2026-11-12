@@ -46,7 +46,7 @@ Confira algumas telas desenvolvidas para o IrrigaTech:
 
 Acesse a documentação completa do IrrigaTech:
 
-[ 📄 Visualizar documentação em PDF ](documentacao/Documentacao-IrrigaTech.pdf)
+[ 📄 Visualizar documentação em PDF ](documentacao/documentacao-IrrigaTech.pdf)
 
 ## 📚 Design
 
