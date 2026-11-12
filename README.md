@@ -48,6 +48,12 @@ Acesse a documentação completa do IrrigaTech:
 
 [ 📄 Visualizar documentação em PDF ](documentacao/Documentacao-IrrigaTech.pdf)
 
+## 📚 Design
+
+Acesse o design prototipado do IrrigaTech
+
+[ 📄 Visualizar Design ](Design/Design-do-Projeto-IrrigaTech-prototipado-em-Figma.pdf)
+
 ## 📂 Estrutura do Projeto
 
 ```text
