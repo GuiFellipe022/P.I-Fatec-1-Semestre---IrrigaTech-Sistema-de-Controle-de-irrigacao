@@ -27,13 +27,13 @@ Confira algumas telas desenvolvidas para o IrrigaTech:
 ### 🏠 Página Inicial
 
 <p align="center">
-  <img src="imagens/Pagina-inicial.png" alt="Página Inicial do IrrigaTech" width="850">
+  <img src="./Imagens/Pagina-inicial.png" alt="Página Inicial do IrrigaTech" width="850">
 </p>
 
 ### 📊 Relatórios
 
 <p align="center">
-  <img src="imagens/Relatorios.png" alt="Página de Relatórios do IrrigaTech" width="850">
+  <img src="./Imagens/Relatorios.png" alt="Página de Relatórios do IrrigaTech" width="850">
 </p>
 
 ## 🖥️ Tecnologias Utilizadas
