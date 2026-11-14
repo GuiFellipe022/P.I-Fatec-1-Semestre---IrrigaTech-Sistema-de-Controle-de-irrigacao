@@ -52,7 +52,7 @@ Acesse a documentação completa do IrrigaTech:
 
 Acesse o design prototipado do IrrigaTech
 
-[ 📄 Visualizar Design ](design/design.pdf)
+[ 📄 Visualizar Design ] https://www.figma.com/design/RbTPKjoFkTtxmxAo2BTUqi/Prototipa%C3%A7%C3%A3o-de-Design-IrrigaTech?node-id=0-1&t=YkiPeM4yh5ip5aCd-1
 
 ## 📂 Estrutura do Projeto
 
