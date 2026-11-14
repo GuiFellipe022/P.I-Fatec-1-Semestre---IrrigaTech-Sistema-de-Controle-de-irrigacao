@@ -97,6 +97,12 @@ O projeto está relacionado ao **ODS 6 – Água Potável e Saneamento**, da Org
 
 Projeto desenvolvido por alunos da **Faculdade de Tecnologia de Franca (Fatec) - Curso de Desenvolvimento de Software Multiplataforma**
 
+Nome aluno (a): Ana Cláudia Siqueira
+Nome aluno (a): Emanuel Durães Liveira Elias
+Nome aluno (a): Guilherme Fellipe de Souza
+Nome aluno (a): Kaiky Alves Costa
+Nome aluno (a): Larissa Souza Oliveira
+
 [Disciplina chave] Engenharia de Software I
 [Disciplina Satélite] Desenvolvimento Web I
 [Disciplina Satélite] Design Digital
